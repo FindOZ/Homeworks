@@ -1,16 +1,31 @@
+number = input()
 
-# print(type(divmod(101, 3)))
-# number = input()
-#
-# number = int (number)
+number = int(number)
 
-# print(number + 25)
+print(number // 1000)
 
-number = int(input())
+print((number // 100) % 10)
 
-print (number)
+print((number // 10) % 10)
 
-git init
+print((number // 1) % 10)
+
+number = input()
+
+number = int(number)
+
+print((number // 1) % 10)
+
+print((number // 10) % 10)
+
+print((number // 100) % 10)
+
+print((number // 1000) % 10)
+
+print((number // 10000) % 10)
+
+
+
 
 
 
