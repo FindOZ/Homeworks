@@ -1,3 +1,4 @@
+import codecs
 
 def delete_html_tags(html_file, result_file='cleaned.txt'):
 
@@ -24,7 +25,6 @@ def delete_html_tags(html_file, result_file='cleaned.txt'):
     print(cleaned_content)
 
 html_file = input("Введіть ім'я HTML-файлу, який потрібно очистити: ")
-result_file = input(
-    "Введіть ім'я файлу, куди зберегти очищений текст (за замовчуванням cleaned.txt): ") or 'cleaned.txt'
+result_file = input("Введіть ім'я файлу, куди зберегти очищений текст (за замовчуванням cleaned.txt): ") or 'cleaned.txt'
 
 delete_html_tags(html_file, result_file)
